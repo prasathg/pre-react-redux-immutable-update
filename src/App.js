@@ -13,6 +13,7 @@ class App extends Component {
         </div>
         <button className="ageUp" onClick={this.props.onAgeUp}>Age UP</button>
         <button className="ageDown" onClick={this.props.onAgeDown}>Age Down</button>
+        <div><h3>Thank you</h3></div>
       </div>
     );
   }
